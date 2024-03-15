@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<!-- <include name="smoke"></include> -->
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testng.T05_customer"/>
+      <class name="testng.TW01_veryfiy"/>
+      <class name="testng.T02_Customerodule"/>
+      <class name="testng.TW03_VerifyTitleSoft"/>
+      <class name="testng.T04_Annotation"/>
+      <class name="testng.TW04_ActiTime"/>
+     <!--  <class name="qsp.s02_demoA"/> -->
+      <class name="testng.T01_Demo"/>
+      <class name="testng.TW05_ActiProperty"/>
+      <class name="testng.T03_Annotation"/>
+      <class name="testng.TW02_VerifyTitle"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
